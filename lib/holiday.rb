@@ -82,8 +82,6 @@ def all_supplies_in_holidays(holiday_hash)
         puts "#{holidays}:"
       end
     end
-    holiday_array.join(",")
-    puts "#{holiday_array}:"
     holiday.each do |holidays, value|
       puts "#{value.to_s}"
     end
